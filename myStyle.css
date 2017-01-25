@@ -1,0 +1,570 @@
+.header
+{
+	display: block;
+	height: 100px;
+	width: 940px;
+	background:  rgb(255,255,255);
+}
+
+.Logo
+{
+	float: left;
+	display: inline-block;
+	height: 100px;
+}
+
+.Logo img
+{
+	width: 80px;
+	height: 80px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.logoLabel
+{
+	margin-top: 10px;
+	float: left;
+	display: inline-block;
+	height: 90px;
+}
+
+
+.logoLabel1
+{
+	margin-top: 10px;
+	float: left;
+	display: inline-block;
+	font-size: 25pt;
+	color: black;
+	font: Times; /* В макете Myriad Pro размер 30 --> */
+}
+
+.logoLabel2
+{
+	margin-top: 10px;
+	float: left;
+	display: inline-block;
+	font-size: 25pt;
+	color: #0bb1e8;
+	font: Times; /* В макете Myriad Pro размер 30 --> */
+}
+
+.logoLabel3_text
+{
+	float: left;
+	display: inline-block;
+	font-size: 12;
+	color: black;
+	font: arial;
+}
+
+.ShopCart
+{
+	margin-top: 10px;
+	float: right;
+	display: inline-block;
+}
+
+.ShopCartLabel
+{
+	display: inline-block;
+	float: right;
+	margin-right: 20px;
+}
+
+.ShopCartLabel a
+{
+	color: #0bb1e8;
+}
+
+.ShopCartLabel2
+{
+	color: #9a9a9a;
+}
+/*
+.ShopCartLabelImg img
+{
+	width: 405px;
+	height: 40px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	float: right;
+}
+*/
+.Language_FOREX
+{
+	clear: right;
+	float: right;
+	display: block;
+	height: 40px;
+	width: 405px;
+	background: #3a4245;
+	border-radius: 5px;
+}
+
+.Language_FOREX_txt
+{
+	display: block;
+	float: left;
+	width: 70px;
+	color: white;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.Language_FOREX_Lang
+{
+	display: block;
+	float: left;
+	width: 95px;
+	height: 40px;
+	padding-left: 25px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.Language_FOREX_Lang select
+{
+	height: 25px;
+	width: 85px;
+}
+
+.Language_FOREX_Match
+{
+	display: block;
+	float: left;
+	width: 95px;
+	height: 40px;
+	padding-left: 95px;
+	padding-top: 8px;
+	padding-bottom: 8px;	
+}
+
+.Language_FOREX_Match select
+{
+	height: 25px;
+	width: 85px;	
+}
+
+.menu
+{
+	clear: both;
+	display: block;
+	height: 52px;
+	background: #f4f4f4;
+	border: 1px solid;
+	border-radius: 5px;
+	border-color: #9a9a9a;
+	width: 940px;
+}
+
+.menu-item
+{
+	display: block;
+	float: left;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	font-size: 13pt;
+}
+
+.MenuBound
+{
+	padding-top: 10px;
+	display: block;
+	float: left;
+}
+
+.searchField
+{
+	display: block;
+	float: left;
+	padding-left: 30px;
+	padding-right: 10px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+}
+.searchField input
+{
+	width: 160px;
+	height: 20px; 
+}
+
+.SearshButton
+{
+	display: block;
+	float: left;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-top: 13px;
+	padding-bottom: 0px;
+	background: #55ccf4;
+	border-radius: 5px;
+	width: 25px;
+	height: 25px;
+}
+
+.SearshButton img
+{
+	width: 16px;
+	height: 16px;
+	padding: 5px 5px 5px 5px;
+}
+
+#current a {color: #0bb1e8;}
+
+.menu-item a
+{
+	color: black;
+	text-decoration: none;
+}
+
+.menu-item a:hover
+{
+	color: #0bb1e8;
+
+}
+
+.content
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid;
+	/*clear: both;*/
+	float: left;
+	display: block;
+	height: 310px;
+	border-radius: 5px;
+	border-color: #9a9a9a;
+	width: 930px;
+	padding: 5px 5px 5px 5px;
+}
+
+.previewButtons
+{
+	display: block;
+	float: left;
+	width: 250px;
+	height: 310px;
+}
+	
+.previewButton
+{
+	border: 1px solid;
+	display: block;
+	background: #f4f4f4;
+	width: 250px;
+	height: 60px;
+	border-color: #9a9a9a;
+}
+
+.previewButtonIMG
+{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	float: left;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+.previewButtonTXT
+{
+	padding-top: 18px;
+	padding-left: 15px;
+
+	display: inline-block;	
+	float: left;
+	font-size: 15pt;
+	color: black;
+	font: Times; /* В макете Myriad Pro размер 30 --> */
+}
+
+.preview
+{
+	display: block;
+	float: left;
+}
+
+.preview img
+{
+	height:  310px;
+	width: 680px;
+}
+
+.previewButton:hover .previewButtonTXT
+{
+	color: white;
+	text-decoration: none;
+}
+
+.previewButton:hover
+{
+	background: #5b696c;
+}
+.HeadCategories
+{
+	margin-left: 5px;
+	display: block;
+	height: 25px;
+	border-color: #9a9a9a;
+	float: left;
+	width: 940px;
+	margin-bottom: 25px;
+}
+
+.Label_Categories
+{
+	display: block;
+	float: left;
+	border: 1px solid;
+	height: 25px;
+	background: #f4f4f4;
+	border-radius: 5px;
+	border-color: #9a9a9a;	
+	font-size: 15pt;
+	width: 215px;
+	padding: 5px 10px 5px 20px;
+	text-decoration: none;
+}
+
+.Label_Categoriestxt1
+{
+	float: left;
+	display: block;
+	font-size: 20pt;
+	color: black;
+	font: Times;
+	padding-top: 5px;
+	padding-left: 50px;
+	padding-bottom: 5px;
+	height: 25px;
+}
+
+.Label_Categoriestxt2
+{
+	float: left;
+	display: block;
+	font-size: 20pt;
+	color: #0bb1e8;
+	font: Times; /* В макете Myriad Pro размер 30 --> */
+	padding-top: 5px;	
+	padding-left: 10px;
+}
+
+.catalog
+{
+	float: left;
+	display: block;
+	border: 0px solid;
+	width: 940px;
+	height: 1000px;
+}
+
+.Categories
+{
+	float: left;
+	border: 1px solid;
+	display: block;
+	height: 1000px;
+	width: 250px;
+}
+
+.Categories-item
+{
+	float: left;
+	display: block;
+	border: 0px solid;
+	color: black;
+	text-decoration: none;
+	padding-left: 35px;
+	padding-top: 0px;
+	width: 200px;
+	font: Arial;
+	font-size: 12pt;
+	font-weight: normal;
+}
+
+.CategoriezBound
+{
+	padding-left: 5px;
+}
+
+.menuBottom
+{
+	clear: both;
+	float: left;
+	display: block;
+	height: 52px;
+	background: #475255;
+	border: 0px solid;
+	border-radius: 5px;
+	width: 940px;
+}
+
+.menuBottom a
+{	
+	float: left;
+	color: white;
+	text-decoration: none;
+}
+
+#MB2
+{
+	padding-top: 10px;
+	height: 15px;
+}
+
+#MB
+{
+	padding-left: 63px;
+	padding-right: 63px;
+}
+
+#MB a
+{
+	font-size: 11pt;
+}
+
+.Categories
+{
+	display: block;
+	float: left;
+	height: 400px;
+	width: 240px;
+	border: 0px solid;
+}
+
+.ButtonViewCatalog input
+{
+	display: block;
+	float: right;
+	background: #3cbdf1; 
+	height: 25px;
+	width: 145px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	border: 0;
+	color: white;
+}
+.catalog-items
+{
+	display: inline-block;
+	float: left;
+	border: 0px solid;
+	height: 400px;
+	width: 690px;
+}
+
+.CatalodBoundBottom
+{
+	display: block;
+	height: 5px;
+	padding-left: 3px;
+	padding-right: 10px;
+}
+
+.CatalodBoundBottom img
+{
+	width: 160px;
+}
+
+.CatalodBoundRIGHT
+{
+	display: block;
+	float: left;
+	width: 10px;
+	height: 150px;
+	padding-left: 15px;
+}
+
+.CatalodBoundRIGHT img
+{
+	height: 180px;
+}
+
+.catalog-item
+{
+	float: left;
+	display: block;
+	height: 170px;
+	width:145px;
+	padding-top: 10px;
+}
+
+.Img-catalog-item
+{
+	display: block;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+}
+
+ .Img-catalog-item img
+ {
+ 	border: 0px solid; 
+ 	width: 120px;
+ 	height: 100px;
+ }
+
+.Label-catalog-item
+{
+	float: left;
+	display: block;	
+	padding-left: 20px;
+	width: 175px;
+}
+
+.Price-catalog-item
+{
+	margin-top: 10px;
+	float: left;
+	display: block;
+	color: #0bb1e8;
+	width: 175px;
+	padding-left: 20px;
+}
+
+.footer
+{
+	float: left;
+	display: block;
+	border: 0px solid;
+	width: 940px;
+	height: 100px;
+	background:  rgb(255,255,255);
+	padding-top: 20px;
+}
+
+.footerLabel a
+{
+	color: #0bb1e8;
+}
+
+.footerLabel2 a
+{
+	color: #0bb1e8;
+}
+
+.footerLabel
+{
+	float: left;
+	display: inline-block;
+	border: 0px solid;
+	padding-right: 10px;
+	height: 100;
+	width: 460px;
+	text-align: right;
+}
+
+.footerLabel2
+{
+	float: left;
+	display: inline-block;
+	border: 0px solid;
+	padding-left: 10px;
+	height: 100;
+	width: 452px;
+}
