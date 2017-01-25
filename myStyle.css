@@ -1,8 +1,15 @@
+.main
+{
+	display: block;
+	width: 940px;
+	margin: 0 auto;
+}
+
 .header
 {
 	display: block;
 	height: 100px;
-	width: 940px;
+	/*width: 940px;*/
 	background:  rgb(255,255,255);
 }
 
@@ -71,6 +78,7 @@
 	display: inline-block;
 	float: right;
 	margin-right: 20px;
+	margin-bottom: 5px;
 }
 
 .ShopCartLabel a
@@ -82,16 +90,7 @@
 {
 	color: #9a9a9a;
 }
-/*
-.ShopCartLabelImg img
-{
-	width: 405px;
-	height: 40px;
-	margin-top: 5px;
-	margin-bottom: 10px;
-	float: right;
-}
-*/
+
 .Language_FOREX
 {
 	clear: right;
@@ -156,7 +155,7 @@
 	border: 1px solid;
 	border-radius: 5px;
 	border-color: #9a9a9a;
-	width: 940px;
+	/*width: 940px;*/
 }
 
 .menu-item
@@ -310,7 +309,7 @@
 	height: 25px;
 	border-color: #9a9a9a;
 	float: left;
-	width: 940px;
+	/*width: 940px;*/
 	margin-bottom: 25px;
 }
 
@@ -357,18 +356,17 @@
 {
 	float: left;
 	display: block;
-	border: 0px solid;
-	width: 940px;
-	height: 1000px;
+	/*width: 940px;*/
+	/*height: 100%;*/
+	/*height: 1000px;*/
 }
 
 .Categories
 {
 	float: left;
-	border: 1px solid;
 	display: block;
-	height: 1000px;
 	width: 250px;
+	margin-bottom: 10px;
 }
 
 .Categories-item
@@ -394,13 +392,12 @@
 .menuBottom
 {
 	clear: both;
-	float: left;
 	display: block;
 	height: 52px;
 	background: #475255;
 	border: 0px solid;
 	border-radius: 5px;
-	width: 940px;
+	/*width: 940px;*/
 }
 
 .menuBottom a
@@ -431,31 +428,33 @@
 {
 	display: block;
 	float: left;
-	height: 400px;
 	width: 240px;
-	border: 0px solid;
+}
+
+.ButtonViewCatalog
+{
+	display: block;
+	float: left;
+	padding-top: 5px;
+	padding-left: 290px;
 }
 
 .ButtonViewCatalog input
 {
 	display: block;
-	float: right;
 	background: #3cbdf1; 
 	height: 25px;
 	width: 145px;
 	margin-top: 5px;
 	margin-bottom: 5px;
 	border-radius: 5px;
-	border: 0;
 	color: white;
 }
 .catalog-items
 {
 	display: inline-block;
 	float: left;
-	border: 0px solid;
-	height: 400px;
-	width: 690px;
+	width: 680px;
 }
 
 .CatalodBoundBottom
@@ -529,10 +528,11 @@
 
 .footer
 {
+	clear: both;
 	float: left;
 	display: block;
 	border: 0px solid;
-	width: 940px;
+	/*width: 940px;*/
 	height: 100px;
 	background:  rgb(255,255,255);
 	padding-top: 20px;
